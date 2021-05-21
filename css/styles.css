@@ -1,0 +1,186 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections  */
+
+.colored-section {
+  background: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background: #fff;
+
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 1.2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans;
+  font-weight: lighter;
+}
+
+#title {
+  background: #ff4c68;
+
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* download buttons */
+.hero-cta {
+  text-align: left;
+}
+
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-img {
+  position: relative;
+  top: 100px;
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* section features */
+
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+/* Testitmonial Section  */
+
+#testimonials {
+  padding: 7% 15%;
+  background: #ef8172;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background: #ef8172;
+  padding-bottom: 10%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+.heading-cta {
+  margin-bottom: 40px;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#cta button {
+  margin: 10px;
+}
+
+#footer {
+  padding: 7% 15%;
+}
+
+.footer-icn {
+  padding: 10px;
+}
+
+.copyright-text {
+  color: gray;
+}
+
+@media (max-width: 1035px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    transform: rotate(0);
+  }
+}
